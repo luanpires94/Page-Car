@@ -121,3 +121,17 @@ input {
     line-height: 1.5;
     width: 322px;
 }
+
+.new-sale-paragraph {
+    color: #B3B3B3;
+    line-height: 2;
+    margin: 0 10px 10px 10px;
+}
+
+.car {
+    width: 200px;
+}
+
+.car-cost {
+    display: flex;
+}
