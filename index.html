@@ -15,19 +15,19 @@
             </p>
         </div>
         <nav>
-            <a href="">
-                <li class="nav-item">home</li>
+            <a href="index.html">
+                <li>home</li>
             </a>
-            <a href="">
+            <a href="#listing">
                 <li>listing</li>
             </a>
-            <a href="">
+            <a href="#blog">
                 <li>blog</li>
             </a>
-            <a href="">
+            <a href="#page">
                 <li>page</li>
             </a>
-            <a href="">
+            <a href="#elements">
                 <li>elements</li>
             </a>
         </nav>
@@ -50,10 +50,12 @@
             <div>
                 <img class="image-jipe" src="assets/jipe.png" alt="carro jipe">
             </div>
+            <div class="circle1"></div>
+            <div class="circle2"></div>
         </section>
         <section>
             <h1 class="work-title">How Turbo works</h1>
-            <div class="block-turbo">
+            <div id="listing" class="block-turbo">
                 <div>
                     <img src="assets/mapa.png" alt="">
                     <h1>Search Location</h1>
@@ -74,31 +76,155 @@
                 </div>
             </div>
         </section>
-        <section class="block-car">
-            <img src="assets/mitsubishi.png" alt="">
-            <div>
-                <h1>Choose Your Car</h1>
-                <p class="choose-paragraph">Proper Business solution for your developing business strategies and corporation</p>
-                <a href=""><span>TOP POPULAR</span></a>
+        <section id="listing" class="block-car">
+            <img class="big-car-image" src="assets/big-car.webp" alt="">
+            <div class="choose-your-car">
+                <h1 class="choose-title">Choose Your Car</h1>
+                <p class="choose-paragraph">Proper Business solution for your developing business strategies and
+                    corporation</p>
+                <a href=""><span class="new-sale-paragraph">TOP POPULAR</span></a>
                 <a href=""><span class="new-sale-paragraph">NEW CARS</span></a>
                 <a href=""><span class="new-sale-paragraph">SALE OFF</span></a>
                 <div class="car-cost">
-                    <img class="car" src="assets/car-aluguel1.jpeg" alt="">
-                    <p>Carro Esportivo</p>
-                    <p>$39.00/Days</p>
+                    <img class="image-car" src="assets/car-aluguel1.png" alt="">
+                    <div>
+                        <p>Carro Esportivo</p>
+                        <p>$39.00/Days</p>
+                    </div>
                 </div>
                 <div class="car-cost">
-                    <img class="car" src="assets/car-aluguel2.png" alt="">
-                    <p>Carro Esportivo</p>
-                    <p>$39.00/Days</p>
+                    <img class="image-car" src="assets/car-aluguel2.png" alt="">
+                    <div>
+                        <p>Carro Esportivo</p>
+                        <p>$39.00/Days</p>
+                    </div>
                 </div>
                 <div class="car-cost">
-                    <img class="car" src="assets/car-aluguel3.png" alt="">
-                    <p>Carro Esportivo</p>
+                    <img class="image-car" src="assets/car-aluguel3.png" alt="">
+                    <div>
+                        <p>Carro Esportivo</p>
+                        <p>$39.00/Days</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h1 class="others-title">Others Available Cars</h1>
+            <div class="block-others-cars">
+                <div>
+                    <label class="label-name" for="search">SEARCH NAME
+                        <input type="text">
+                    </label>
+                </div>
+                <div>
+                    <label class="label-name" for="car-brand">CAR MODEL
+                        <select name="car-brand" id="car-brand">
+                            <option value="car-brand">FERRARI</option>
+                            <option value="car-brand">DODGE VIPER</option>
+                            <option value="car-brand">LAMBORGHINI</option>
+                        </select>
+                    </label>
+                </div>
+                <div>
+                    <label class="label-name" for="car-rating">RATING
+                        <select name="car-rating" id="car-rating">
+                            <option value="car-rating">1</option>
+                            <option value="car-rating">2</option>
+                            <option value="car-rating">3</option>
+                            <option value="car-rating">4</option>
+                            <option value="car-rating">5</option>
+                        </select>
+                    </label>
+                </div>
+                <div>
+                    <label class="label-name" for="car-brand">PRECING
+                        <select name="car-brand" id="car-brand">
+                            <option value="car-brand">LOW TO HIGH</option>
+                            <option value="car-brand">HIGH TO LOW</option>
+                        </select>
+                    </label>
+                </div>
+            </div>
+            <div id="page" class="search-car">
+                <div class="block-search-car">
+                    <img class="image-car" src="assets/car-aluguel3.png" alt="">
+                    <h1>Car</h1>
                     <p>$39.00/Days</p>
+                </div>
+                <div class="block-search-car">
+                    <img class="image-car" src="assets/car-aluguel2.png" alt="">
+                    <h1>Car</h1>
+                    <p>$39.00/Days</p>
+                </div>
+                <div class="block-search-car">
+                    <img class="image-car" src="assets/car-aluguel1.png" alt="">
+                    <h1>Car</h1>
+                    <p>$39.00/Days</p>
+                </div>
+            </div>
+            <div class="search-car">
+                <div class="block-search-car">
+                    <img class="image-car" src="assets/car-aluguel1.png" alt="">
+                    <h1>Car</h1>
+                    <p>$39.00/Days</p>
+                </div>
+                <div class="block-search-car">
+                    <img class="image-car" src="assets/car-aluguel3.png" alt="">
+                    <h1>Car</h1>
+                    <p>$39.00/Days</p>
+                </div>
+                <div class="block-search-car">
+                    <img class="image-car" src="assets/car-aluguel2.png" alt="">
+                    <h1>Car</h1>
+                    <p>$39.00/Days</p>
+                </div>
+            </div>
+            <div class="block-button">
+                <button>See All</button>
+            </div>
+        </section>
+        <section>
+            <h1 class="client-title">What client say about us</h1>
+            <div id="blog" class="client-block">
+                <div class="client-comment">
+                    <p class="client-comment-paragraph">Lorem ipsum dolor sit amet consectetur adipiscing elit and
+                        Pellentesque eueget ante venenatis euismod Etiam in mattis</p class="client-comment-paragraph">
+                    <div class="client-img-p">
+                        <img class="image-comment" src="assets/images.jpg" alt="">
+                        <div>
+                            <p class="client-name">Saurobh Barua</p>
+                            <p class="client-social">@saurohbh</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="client-comment">
+                    <p class="client-comment-paragraph">Lorem ipsum dolor sit amet consectetur adipiscing elit and
+                        Pellentesque eueget ante venenatis euismod Etiam in mattis</p>
+                    <div class="client-img-p">
+                        <img class="image-comment" src="assets/images.jpg" alt="">
+                        <div>
+                            <p class="client-name">Saurobh Barua</p>
+                            <p class="client-social">@saurohbh</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
+    <hr>
+    <footer>
+        <div id="elements" class="block-footer">
+            <div class="block-copyright">
+                <p class="copyright-paragraph">Turbo</p>
+                <p class="copyright">&copy; 2018 by Turbo Corporation</p>
+            </div>
+            <div class="block-buttons">
+                <input class="footer-button" type="button" value="Service">
+                <input class="footer-button" type="button" value="Portifolio">
+                <input class="footer-button" type="button" value="About">
+                <input class="footer-button" type="button" value="Contact">
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
