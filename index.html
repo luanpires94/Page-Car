@@ -12,24 +12,13 @@
     <header>
         <div class="header-block-paragraph">
             <p class="header-paragraph">Turb<p class="header-paragraph-color">o</p>
-            </p>
         </div>
         <nav>
-            <a href="index.html">
-                <li>home</li>
-            </a>
-            <a href="#listing">
-                <li>listing</li>
-            </a>
-            <a href="#blog">
-                <li>blog</li>
-            </a>
-            <a href="#page">
-                <li>page</li>
-            </a>
-            <a href="#elements">
-                <li>elements</li>
-            </a>
+            <a href="index.html">home</a>
+            <a href="#listing">listing</a>
+            <a href="#blog">blog</a>
+            <a href="#page">page</a>
+            <a href="#elements">elements</a>
         </nav>
     </header>
     <main>
@@ -37,18 +26,18 @@
             <form>
                 <h1>Make your Trip</h1>
                 <p class="form-paragraph">Rorit car to move from local hosts in 300* countries</p>
-                <label for="">where you from</label>
-                <input type="text" name="" id="">
-                <label for="">where you go</label>
-                <input type="text" name="" id="">
-                <label for="">journey date</label>
-                <input type="date" name="" id="">
-                <label for="">return date</label>
-                <input type="date" name="" id="">
+                <label for="from">where you from</label>
+                <input type="text" name="from" id="from">
+                <label for="go">where you go</label>
+                <input type="text" name="go" id="go">
+                <label for="date1">journey date</label>
+                <input type="date" name="date1" id="date1">
+                <label for="date2">return date</label>
+                <input type="date" name="date2" id="date2">
                 <input class="input-button" type="button" value="search vehicle">
             </form>
             <div>
-                <img class="image-jipe" src="assets/jipe.png" alt="carro jipe">
+                <img class="image-jipe" src="assets/jipe.png" alt="car">
             </div>
             <div class="circle1"></div>
             <div class="circle2"></div>
@@ -57,27 +46,27 @@
             <h1 class="work-title">How Turbo works</h1>
             <div id="listing" class="block-turbo">
                 <div>
-                    <img src="assets/mapa.png" alt="">
+                    <img src="assets/mapa.png" alt="payment">
                     <h1>Search Location</h1>
                     <p class="work-paragraph">Proper Business solution for your developing business strategies and
                         corporation</p>
                 </div>
                 <div>
-                    <img src="assets/percentagem.png" alt="">
+                    <img src="assets/percentagem.png" alt="payment">
                     <h1>Easy Payment</h1>
                     <p class="work-paragraph">Proper Business solution for your developing business strategies and
                         corporation</p>
                 </div>
                 <div>
-                    <img src="assets/mala.png" alt="">
+                    <img src="assets/mala.png" alt="payment">
                     <h1>Make Trip</h1>
                     <p class="work-paragraph">Proper Business solution for your developing business strategies and
-                        corporation</p class="work-paragraph">
+                        corporation</p>
                 </div>
             </div>
         </section>
-        <section id="listing" class="block-car">
-            <img class="big-car-image" src="assets/big-car.webp" alt="">
+        <section class="block-car">
+            <img class="big-car-image" src="assets/big-car.webp" alt="big car">
             <div class="choose-your-car">
                 <h1 class="choose-title">Choose Your Car</h1>
                 <p class="choose-paragraph">Proper Business solution for your developing business strategies and
@@ -86,21 +75,21 @@
                 <a href=""><span class="new-sale-paragraph">NEW CARS</span></a>
                 <a href=""><span class="new-sale-paragraph">SALE OFF</span></a>
                 <div class="car-cost">
-                    <img class="image-car" src="assets/car-aluguel1.png" alt="">
+                    <img class="image-car" src="assets/car-aluguel1.png" alt="car">
                     <div>
                         <p>Carro Esportivo</p>
                         <p>$39.00/Days</p>
                     </div>
                 </div>
                 <div class="car-cost">
-                    <img class="image-car" src="assets/car-aluguel2.png" alt="">
+                    <img class="image-car" src="assets/car-aluguel2.png" alt="car">
                     <div>
                         <p>Carro Esportivo</p>
                         <p>$39.00/Days</p>
                     </div>
                 </div>
                 <div class="car-cost">
-                    <img class="image-car" src="assets/car-aluguel3.png" alt="">
+                    <img class="image-car" src="assets/car-aluguel3.png" alt="car">
                     <div>
                         <p>Carro Esportivo</p>
                         <p>$39.00/Days</p>
@@ -113,12 +102,12 @@
             <div class="block-others-cars">
                 <div>
                     <label class="label-name" for="search">SEARCH NAME
-                        <input type="text">
+                        <input class="input-name" type="text" id="search">
                     </label>
                 </div>
                 <div>
-                    <label class="label-name" for="car-brand">CAR MODEL
-                        <select name="car-brand" id="car-brand">
+                    <label class="label-name" for="car-brand1">CAR MODEL
+                        <select name="car-brand" id="car-brand1">
                             <option value="car-brand">FERRARI</option>
                             <option value="car-brand">DODGE VIPER</option>
                             <option value="car-brand">LAMBORGHINI</option>
@@ -137,8 +126,8 @@
                     </label>
                 </div>
                 <div>
-                    <label class="label-name" for="car-brand">PRECING
-                        <select name="car-brand" id="car-brand">
+                    <label class="label-name" for="car-brand2">PRECING
+                        <select name="car-brand" id="car-brand2">
                             <option value="car-brand">LOW TO HIGH</option>
                             <option value="car-brand">HIGH TO LOW</option>
                         </select>
@@ -147,34 +136,34 @@
             </div>
             <div id="page" class="search-car">
                 <div class="block-search-car">
-                    <img class="image-car" src="assets/car-aluguel3.png" alt="">
+                    <img class="image-car" src="assets/car-aluguel3.png" alt="car">
                     <h1>Car</h1>
                     <p>$39.00/Days</p>
                 </div>
                 <div class="block-search-car">
-                    <img class="image-car" src="assets/car-aluguel2.png" alt="">
+                    <img class="image-car" src="assets/car-aluguel2.png" alt="car">
                     <h1>Car</h1>
                     <p>$39.00/Days</p>
                 </div>
                 <div class="block-search-car">
-                    <img class="image-car" src="assets/car-aluguel1.png" alt="">
+                    <img class="image-car" src="assets/car-aluguel1.png" alt="car">
                     <h1>Car</h1>
                     <p>$39.00/Days</p>
                 </div>
             </div>
             <div class="search-car">
                 <div class="block-search-car">
-                    <img class="image-car" src="assets/car-aluguel1.png" alt="">
+                    <img class="image-car" src="assets/car-aluguel1.png" alt="car">
                     <h1>Car</h1>
                     <p>$39.00/Days</p>
                 </div>
                 <div class="block-search-car">
-                    <img class="image-car" src="assets/car-aluguel3.png" alt="">
+                    <img class="image-car" src="assets/car-aluguel3.png" alt="car">
                     <h1>Car</h1>
                     <p>$39.00/Days</p>
                 </div>
                 <div class="block-search-car">
-                    <img class="image-car" src="assets/car-aluguel2.png" alt="">
+                    <img class="image-car" src="assets/car-aluguel2.png" alt="car">
                     <h1>Car</h1>
                     <p>$39.00/Days</p>
                 </div>
@@ -188,9 +177,9 @@
             <div id="blog" class="client-block">
                 <div class="client-comment">
                     <p class="client-comment-paragraph">Lorem ipsum dolor sit amet consectetur adipiscing elit and
-                        Pellentesque eueget ante venenatis euismod Etiam in mattis</p class="client-comment-paragraph">
+                        Pellentesque eueget ante venenatis euismod Etiam in mattis</p>
                     <div class="client-img-p">
-                        <img class="image-comment" src="assets/images.jpg" alt="">
+                        <img class="image-comment" src="assets/images.jpg" alt="image perfil">
                         <div>
                             <p class="client-name">Saurobh Barua</p>
                             <p class="client-social">@saurohbh</p>
@@ -201,7 +190,7 @@
                     <p class="client-comment-paragraph">Lorem ipsum dolor sit amet consectetur adipiscing elit and
                         Pellentesque eueget ante venenatis euismod Etiam in mattis</p>
                     <div class="client-img-p">
-                        <img class="image-comment" src="assets/images.jpg" alt="">
+                        <img class="image-comment" src="assets/images.jpg" alt="image perfil">
                         <div>
                             <p class="client-name">Saurobh Barua</p>
                             <p class="client-social">@saurohbh</p>

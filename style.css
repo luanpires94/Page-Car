@@ -28,16 +28,13 @@ nav {
 
 a {
     color: black;
+    font-size: 14px;
+    margin-left: 20px;
+    text-transform: uppercase;
 }
 a:hover {
     font-weight: 700;
     color: black;
-}
-
-li {
-    font-size: 14px;
-    margin-left: 20px;
-    text-transform: uppercase;
 }
 
 .header-block-paragraph {
@@ -260,6 +257,10 @@ input {
     .label-name {
         font-size: 10px;
     }
+}
+
+.input-name {
+    width: 90px;
 }
 
 .block-others-cars input {
