@@ -9,32 +9,55 @@
     font-family: 'Oxygen', sans-serif;
 }
 
+/*MENU*/
+
+@media (max-width: 768px) {
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+}
+
+.nav-link {
+    font-size: 15px;
+    padding: 5px;
+    text-transform: uppercase;
+    color: black;
+}
+
+.nav-link:hover{
+    font-weight: 700;
+    color: black;
+}
+span {
+    font-size: 30px;
+    display: none;
+}
+@media (max-width: 1440px) {
+    span {
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    span {
+        display: flex;
+    }
+}
+
+#close-hamburguer{
+    display: none;
+}
+
+/*MENU*/
+
 /*SECTION*/
 
 header {
     display: flex;
     justify-content: space-evenly;
     margin: 15px 100px 0 0;
-}
-
-nav {
-    display: flex;
-}
-@media (max-width: 768px) {
-    nav {
-        display: none;
-    }
-}
-
-a {
-    color: black;
-    font-size: 14px;
-    margin-left: 20px;
-    text-transform: uppercase;
-}
-a:hover {
-    font-weight: 700;
-    color: black;
 }
 
 .header-block-paragraph {
@@ -50,6 +73,7 @@ a:hover {
     font-size: 20px;
     background-color: #F4A460;
     color: #fff;
+    height: 25px;
 }
 
 form {
@@ -211,9 +235,21 @@ input {
     }
 }
 
+.block-new-sale {
+    display: flex;
+}
+
 .new-sale-paragraph {
     line-height: 2;
     margin: 0 10px 10px 10px;
+    color: black;
+    font-size: 14px;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+.new-sale-paragraph:hover {
+    color: black;
+    font-weight: 700;
 }
 
 .image-car {
@@ -226,7 +262,7 @@ input {
 }
 @media (max-width: 425px) {
     .car-cost {
-        margin: 2rem 0 0 2rem;
+        margin-left: 2rem;
     }
 }
 
@@ -248,6 +284,11 @@ input {
 .block-others-cars {
     display: flex;
     justify-content: space-around;
+}
+@media (max-width: 425px) {
+    .block-others-cars {
+        padding: 10px;
+    }
 }
 
 .label-name {

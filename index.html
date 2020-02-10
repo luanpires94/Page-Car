@@ -13,12 +13,14 @@
         <div class="header-block-paragraph">
             <p class="header-paragraph">Turb<p class="header-paragraph-color">o</p>
         </div>
-        <nav>
-            <a href="index.html">home</a>
-            <a href="#listing">listing</a>
-            <a href="#blog">blog</a>
-            <a href="#page">page</a>
-            <a href="#elements">elements</a>
+        <span id="menu-hamburguer" onclick="openMenu()">&#9776;</span>
+        <span id="close-hamburguer" onclick="closeMenu()">&#215;</span>
+        <nav id="menu">
+            <a class="nav-link" href="index.html">home</a>
+            <a class="nav-link" href="#listing">listing</a>
+            <a class="nav-link" href="#blog">blog</a>
+            <a class="nav-link" href="#page">page</a>
+            <a class="nav-link" href="#elements">elements</a>
         </nav>
     </header>
     <main>
@@ -71,9 +73,11 @@
                 <h1 class="choose-title">Choose Your Car</h1>
                 <p class="choose-paragraph">Proper Business solution for your developing business strategies and
                     corporation</p>
-                <a href=""><span class="new-sale-paragraph">TOP POPULAR</span></a>
-                <a href=""><span class="new-sale-paragraph">NEW CARS</span></a>
-                <a href=""><span class="new-sale-paragraph">SALE OFF</span></a>
+                <div class="block-new-sale">
+                    <a href=""><p class="new-sale-paragraph">TOP POPULAR</p></a>
+                    <a href=""><p class="new-sale-paragraph">NEW CARS</p></a>
+                    <a href=""><p class="new-sale-paragraph">SALE OFF</p></a>
+                </div>
                 <div class="car-cost">
                     <img class="image-car" src="assets/car-aluguel1.png" alt="car">
                     <div>
@@ -215,5 +219,6 @@
             </div>
         </div>
     </footer>
+    <script src="index.js"></script>
 </body>
 </html>
