@@ -28,8 +28,7 @@
 }
 
 .nav-link:hover{
-    font-weight: 700;
-    color: black;
+    color: #F4A460;
 }
 span {
     font-size: 30px;
@@ -92,6 +91,11 @@ form {
 @media (max-width: 425px) {
     form {
         margin: 6rem 0 0 5rem;
+    }
+}
+@media (max-width: 320px) {
+    form {
+        margin: 6rem 0 0 2rem;
     }
 }
 
@@ -197,7 +201,16 @@ input {
         width: 420px;
     }
 }
-
+@media (max-width: 375px) {
+    .work-paragraph {
+        width: 370px;
+    }
+}
+@media (max-width: 320px) {
+    .work-paragraph {
+        width: 310px;
+    }
+}
 /*SECTION */
 
 .block-car {
@@ -226,7 +239,7 @@ input {
 .choose-paragraph {
     color: #BEBEBE;
     line-height: 1.5;
-    width: 322px;
+    width: 450px;
     margin: 10px;
 }
 @media (max-width: 425px) {
@@ -234,9 +247,26 @@ input {
         width: 400px;
     }
 }
+@media (max-width: 375px) {
+    .choose-paragraph {
+        width: 330px;
+    }
+}
+@media (max-width: 320px) {
+    .choose-paragraph {
+        width: 255px;
+        margin-left: 2rem;
+    }
+}
 
 .block-new-sale {
     display: flex;
+}
+@media (max-width: 375px) {
+    .block-new-sale {
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .new-sale-paragraph {
@@ -265,6 +295,11 @@ input {
         margin-left: 2rem;
     }
 }
+@media (max-width: 320px) {
+    .car-cost {
+        margin-left: 0;
+    }
+}
 
 .choose-your-car {
     width: 420px;
@@ -288,6 +323,11 @@ input {
 @media (max-width: 425px) {
     .block-others-cars {
         padding: 10px;
+    }
+}
+@media (max-width: 320px) {
+    .block-others-cars {
+        display: none;
     }
 }
 
@@ -391,14 +431,11 @@ button {
     padding: 10px;
 }
 
-hr {
-    margin-top: 60px;
-}
-
 /*FOOTER*/
 
 footer {
-    margin-top: 90px;
+    border-top: 1px solid #B3B3B3;
+    margin-top: 2rem;
 }
 @media (max-width: 425px) {
     footer {
@@ -409,10 +446,16 @@ footer {
 .block-footer {
     display: flex;
     justify-content: space-around;
+    margin: 4rem 0 0 3rem;
 }
 @media (max-width: 425px) {
     .block-footer {
         flex-direction: column;
+    }
+}
+@media (max-width: 320px) {
+    .block-footer {
+        margin: 4rem 0 0 0;
     }
 }
 
